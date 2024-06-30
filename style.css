@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg);
+    height: 150 vh;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Jersey 25 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+}
+
+#guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#guess-button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#grid{
+    text-align: center;
+    margin: 10px;
+}
+
+.letter {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+    min-width: 20px;
+    text-align: center;
+    display: inline-block
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+.input-area{
+    margin: 30px;
+}
+
+.retry-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.retry-button:hover {
+    background-color: #45a049;
+}
+
+#attempts-container {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
